@@ -1,3 +1,8 @@
+#links img,footer img, li img, h1 img, h2 img, h3 img, p img, .dropme img {
+    max-height: 1em;
+    max-width: 1.5em;
+}
+
 body {
 	color: white;
 	background: black;
@@ -8,13 +13,46 @@ body {
 }
 
 h1 {
-	color: lime;
+	color: crimson;
 }
 
 h2 {
-	color: lime;
+	color: limegreen;
 }
 
 a {
-	color: lime;
+	color: limegreen;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    text-align: center;
+}
+
+.navbar {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+}
+
+.navbar li a {
+    display: block;
+}
+
+.navbar li {
+	display: block;
+	float: left;
+	width: 170px;
+    min-height: 1.5em;
+    background: #222;
+    border: #444 solid 2px;
+    padding: 3px;
+    margin: 4px;
+}
+
+.menubar li:hover {
+    background: black;
 }
